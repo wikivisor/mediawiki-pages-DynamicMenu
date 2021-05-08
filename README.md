@@ -37,6 +37,11 @@ Then enable them in LocalSettings.php:
 enableSemantics( 'parasol' ); #SemanticMediawiki
 wfLoadExtension( 'SemanticResultFormats' );
 ```
+Running update.php is required:
+```bash
+php maintenance/update.php --quick
+```
+
 ### Git
 Clone repos into extensions directory and enable the extensions in LocalSettings.php:
 ```php
