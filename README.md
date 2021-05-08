@@ -1,7 +1,18 @@
 # mediawiki-pages-DynamicMenu
 A pack of pages for easy sidebar menu insertion.
 
-# Installation
+# Requirements
+* SemanticMediaWiki
+* DynamicSidebar
+* Gadgets
+* PageNotice
+* ParserFunctions (with `$wgPFEnableStringFunctions = true;`)
+* SubpageFun
+* TreeAndMenu
+* UserFunctions
+* PageExchange or PagePort
+
+# Setup
 
 ## Create a custom namespace
 We'll store TreeAndMenu menus in a custom namespace. Add this to LocalSettings.php:
@@ -71,3 +82,15 @@ Optionally install and enable:
 ```php
 wfLoadExtension( 'VisualEditor' );
 ```
+## Import the package
+
+### via PagePort 
+
+* download the repository
+* run `php extensions/PagePort/maintenance/importPages.php --source ~/mediawiki-pages-DynamicMenu`
+
+### via PageExchange
+
+* add the following to the bottom of your `LocalSettings.php`: `$wgPageExchangePackageFiles[] = 'https://raw.githubusercontent.com/wikivisor/mediawiki-pages-DynamicMenu/main/page-exchange.json';`
+* navigate to `Special:Packages` and install the package
+* (optional) from the wiki root, run `php maintenance/runJobs.php`
