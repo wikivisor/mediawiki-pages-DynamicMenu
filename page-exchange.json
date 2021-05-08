@@ -1,0 +1,126 @@
+{
+    "publisher": "PagePort",
+    "author": "PagePort",
+    "language": "en",
+    "url": "https:\/\/github.com\/",
+    "packages": {
+        "1620491592": {
+            "globalID": "1620491592",
+            "description": null,
+            "version": "0.1",
+            "pages": [
+                {
+                    "name": "Project 1",
+                    "namespace": "NS_MAIN",
+                    "url": "https:\/\/parasol.wikivisor.com\/w\/index.php?title=Project_1&action=raw"
+                },
+                {
+                    "name": "Project name",
+                    "namespace": "NS_MAIN",
+                    "url": "https:\/\/parasol.wikivisor.com\/w\/index.php?title=Project_name&action=raw"
+                },
+                {
+                    "name": "Project name\/Topic One",
+                    "namespace": "NS_MAIN",
+                    "url": "https:\/\/parasol.wikivisor.com\/w\/index.php?title=Project_name\/Topic_One&action=raw"
+                },
+                {
+                    "name": "Project name\/Topic One\/Subtopic 1",
+                    "namespace": "NS_MAIN",
+                    "url": "https:\/\/parasol.wikivisor.com\/w\/index.php?title=Project_name\/Topic_One\/Subtopic_1&action=raw"
+                },
+                {
+                    "name": "Project name\/Topic Two",
+                    "namespace": "NS_MAIN",
+                    "url": "https:\/\/parasol.wikivisor.com\/w\/index.php?title=Project_name\/Topic_Two&action=raw"
+                },
+                {
+                    "name": "Project name\/Topic Two\/Subtopic 1",
+                    "namespace": "NS_MAIN",
+                    "url": "https:\/\/parasol.wikivisor.com\/w\/index.php?title=Project_name\/Topic_Two\/Subtopic_1&action=raw"
+                },
+                {
+                    "name": "Project name\/Topic Two\/Subtopic 2",
+                    "namespace": "NS_MAIN",
+                    "url": "https:\/\/parasol.wikivisor.com\/w\/index.php?title=Project_name\/Topic_Two\/Subtopic_2&action=raw"
+                },
+                {
+                    "name": "Bottom-notice-ns-0",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/parasol.wikivisor.com\/w\/index.php?title=MediaWiki:Bottom-notice-ns-0&action=raw"
+                },
+                {
+                    "name": "Common.css",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/parasol.wikivisor.com\/w\/index.php?title=MediaWiki:Common.css&action=raw"
+                },
+                {
+                    "name": "Common.js",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/parasol.wikivisor.com\/w\/index.php?title=MediaWiki:Common.js&action=raw"
+                },
+                {
+                    "name": "Gadget-Sidebar-menu",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/parasol.wikivisor.com\/w\/index.php?title=MediaWiki:Gadget-Sidebar-menu&action=raw"
+                },
+                {
+                    "name": "Gadget-Sidebar-menu.js",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/parasol.wikivisor.com\/w\/index.php?title=MediaWiki:Gadget-Sidebar-menu.js&action=raw"
+                },
+                {
+                    "name": "Gadgets-definition",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/parasol.wikivisor.com\/w\/index.php?title=MediaWiki:Gadgets-definition&action=raw"
+                },
+                {
+                    "name": "Sidebar",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/parasol.wikivisor.com\/w\/index.php?title=MediaWiki:Sidebar&action=raw"
+                },
+                {
+                    "name": "Sidebar\/Category:Projects",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/parasol.wikivisor.com\/w\/index.php?title=MediaWiki:Sidebar\/Category:Projects&action=raw"
+                },
+                {
+                    "name": "Category menu",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/parasol.wikivisor.com\/w\/index.php?title=Template:Category_menu&action=raw"
+                },
+                {
+                    "name": "Project menu",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/parasol.wikivisor.com\/w\/index.php?title=Template:Project_menu&action=raw"
+                },
+                {
+                    "name": "Subpage title",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/parasol.wikivisor.com\/w\/index.php?title=Template:Subpage_title&action=raw"
+                },
+                {
+                    "name": "Project name",
+                    "namespace": "NS_CATEGORY",
+                    "url": "https:\/\/parasol.wikivisor.com\/w\/index.php?title=Category:Project_name&action=raw"
+                },
+                {
+                    "name": "Projects",
+                    "namespace": "NS_CATEGORY",
+                    "url": "https:\/\/parasol.wikivisor.com\/w\/index.php?title=Category:Projects&action=raw"
+                },
+                {
+                    "name": "Project 1",
+                    "namespace": "NS_MENU",
+                    "url": "https:\/\/parasol.wikivisor.com\/w\/index.php?title=Menu:Project_1&action=raw"
+                },
+                {
+                    "name": "Project name",
+                    "namespace": "NS_MENU",
+                    "url": "https:\/\/parasol.wikivisor.com\/w\/index.php?title=Menu:Project_name&action=raw"
+                }
+            ],
+            "requiredExtensions": []
+        }
+    }
+}

@@ -1,0 +1,1 @@
+<includeonly>[[Category:{{{1|{{TOPLEVELPAGE}}}}}]]{{#ifsysop:<span id="category-menu">[[Mediawiki:Sidebar/Category:{{{1|{{ROOTPAGENAME}}}}}|<span class="mw-ui-button mw-ui-progressive small float-left">Category menu</span>]]</span>}}</includeonly>

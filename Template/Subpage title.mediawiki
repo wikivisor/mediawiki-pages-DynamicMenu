@@ -1,0 +1,1 @@
+<includeonly>{{DISPLAYTITLE:{{SUBPAGENAME}}}}</includeonly>

@@ -1,0 +1,47 @@
+var rtime;
+var timeout = false;
+var delta = 100;
+
+docReady(function() {
+	moveMenu();
+	$(window).resize();
+});
+
+function docReady(fn) {
+    // see if DOM is already available
+    if (document.readyState === 'complete' || document.readyState === 'interactive') {
+        // call on next available tick
+        setTimeout(fn, 1);
+    } else {
+        document.addEventListener('DOMContentLoaded', fn);
+    }
+}
+
+$(window).resize(function() {
+    rtime = new Date();
+    if (timeout === false) {
+        timeout = true;
+        setTimeout(resizeend, delta);
+    }
+});
+
+function resizeend() {
+    if (new Date() - rtime < delta) {
+        setTimeout(resizeend, delta);
+    } else {
+        timeout = false;
+    }               
+}
+
+$(function moveMenu() {
+	var node = document.getElementById("p-dynamic-menu");
+	var wrap = document.getElementById("mw-panel");
+	var menu = document.getElementById("category-menu");
+	var host = document.getElementById("bottom-notice-ns");
+	var tree = document.getElementById("siteTree");
+	wrap.appendChild(node);
+	host.appendChild(menu);
+	tree.bind('fancytreeinit', function(event, data) {
+		data.tree.makeTitleVisible();
+	});
+});

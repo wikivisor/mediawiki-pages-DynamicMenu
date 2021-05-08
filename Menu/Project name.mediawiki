@@ -1,0 +1,2 @@
+* [[{{ROOTPAGENAME}}]]
+{{#subpages:{{ROOTPAGENAME}}|element=none|addlevel=1}}

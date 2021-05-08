@@ -1,0 +1,125 @@
+/* CSS placed here will be applied to all skins */
+
+/* Dynamic Tree In Sidebar */
+
+/* We make the Sidebar a bit wider to fit a multilevel menu better */
+
+#mw-panel {
+	width: 15em;
+	height: 100%;
+}
+#p-logo {
+	margin-left: .5em;
+}
+#p-logo, #p-logo a {
+	width: 14em;
+	height: 14em;
+}
+.mw-wiki-logo {
+	background-size: cover;
+}
+.mw-body, #mw-data-after-content, .mw-footer, #left-navigation {
+    margin-left: 16em;
+}
+
+@media screen and ( min-width: 982px ){
+#mw-panel {
+	width: 15em;
+}
+.mw-body, #mw-data-after-content, .mw-footer, #left-navigation {
+    margin-left: 16em;
+}
+}
+
+/* We make the Sidebar panel fixed and vertically scrollable */
+
+#mw-panel {
+	position: fixed;
+	top: 0;
+	height: 100%;
+	width: 16rem;
+	overflow-y: auto;
+	-ms-overflow-style: none;
+	scrollbar-width: none !important;
+	overflow: -moz-scrollbars-none;
+}
+
+/* We make menu visible on Sidebar only */
+
+#p-dynamic-menu {
+	display: none;
+}
+#mw-panel #p-dynamic-menu {
+	display: block;
+}
+
+/* We remove unnecessary spacing and coloring */
+
+#p-dynamic-menu.vector-menu li {
+	padding-top: 0;
+}
+.fancytree :focus {
+    outline-color: none !important;
+}
+.fancytree ul {
+    background: none;
+    border: none;
+    font-size: 12px;
+}
+ul.fancytree-container {
+    outline: 0;
+    border: none;
+    overflow: hidden;
+}
+.fancytree p {
+    display: none;
+}
+span.fancytree-title {
+    cursor: default;
+    width: 100%;
+    white-space: normal;
+}
+span.fancytree-title a {
+    color: black;
+}
+.fancytree-treefocus span.fancytree-selected span.fancytree-title, 
+.fancytree-treefocus span.fancytree-active span.fancytree-title,
+span.fancytree-selected span.fancytree-title, 
+span.fancytree-active span.fancytree-title {
+    background-color: transparent;
+    color: inherit;
+}
+span.fancytree-selected span.fancytree-title, 
+span.fancytree-active span.fancytree-title, 
+.fancytree-treefocus span.fancytree-selected span.fancytree-title, 
+.fancytree-treefocus span.fancytree-active span.fancytree-title {
+	font-weight: normal;
+}
+span.fancytree-focused span.fancytree-title {
+	outline: none !important;
+}
+.fancytree-icon {
+    background-image: none !important;
+    width: 0 !important;
+    margin: 0 !important;
+}
+
+/* We make category menu edit button visible as a bottom notice */
+
+#category-menu {
+	display: none;
+}
+#bottom-notice-ns #category-menu {
+	display: inline-block;
+}
+
+/* We want toolbox to go to the end */
+
+#mw-panel {
+	display: flex;
+	flex-direction: column;
+}
+#p-tb {
+    order: 1;
+    padding-bottom: 3em;
+}

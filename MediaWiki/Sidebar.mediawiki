@@ -1,0 +1,12 @@
+
+* navigation
+** mainpage|mainpage-description
+** recentchanges-url|recentchanges
+** randompage-url|randompage
+** helppage|help-mediawiki
+* SEARCH
+* TOOLBOX
+* LANGUAGES
+* USER-SIDEBAR
+* GROUP-SIDEBAR
+* CATEGORY-SIDEBAR
