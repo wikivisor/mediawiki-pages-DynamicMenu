@@ -46,16 +46,16 @@
 
 /* We make menu visible on Sidebar only */
 
-#p-dynamic-menu {
+#p-dynamic-menu, #p-dynamic-submenu, #p-global-menu {
 	display: none;
 }
-#mw-panel #p-dynamic-menu {
+#mw-panel #p-dynamic-menu, #mw-panel #p-dynamic-submenu, #mw-panel #p-global-menu {
 	display: block;
 }
 
 /* We remove unnecessary spacing and coloring */
 
-#p-dynamic-menu.vector-menu li {
+#p-dynamic-menu.vector-menu li, #p-dynamic-submenu.vector-menu li, #p-global-menu.vector-menu li  {
 	padding-top: 0;
 }
 .fancytree :focus {

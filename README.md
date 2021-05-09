@@ -2,6 +2,7 @@
 A pack of pages for easy sidebar menu insertion.
 
 - [Usage](#usage)
+  * [Global menu](#global-menu)
   * [Category menu](#category-menu)
   * [Project menu](#project-menu)
     + [Manual menu](#manual-menu)
@@ -19,6 +20,24 @@ A pack of pages for easy sidebar menu insertion.
     + [via PageExchange](#via-pageexchange)
 
 # Usage
+
+## Global menu
+
+A multilevel collapsible menu (the first level is always expanded). Provided by the TreeAndMenu extension. Served via `Mediawiki:Sitenotice` using `Global menu` template. 
+
+Edit `Mediawiki:Sitenotice` (after the template call):
+```php
+// template start
+...
+* [[RootPageName]]
+** [[RootPageName/SubpageName1|SubpageName1]]
+** [[RootPageName/SubpageName2|SubpageName2]]
+*** [[RootPageName/SubpageName2/SubSub1|SubSub1]]
+*** [[RootPageName/SubpageName2/SubSub2|SubSub2]]
+** [[RootPageName/SubpageName3|SubpageName3]]
+...
+// template end
+```
 
 ## Category menu
 

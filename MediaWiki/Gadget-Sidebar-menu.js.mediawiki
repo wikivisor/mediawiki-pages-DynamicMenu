@@ -33,23 +33,25 @@ function resizeend() {
     }               
 }
 
- function moveMenu() {
-	var pmenu    = $('#p-dynamic-menu'),
-		pmenusub = $('#p-dynamic-submenu'),
-		wrap     = $('#mw-panel'),
-		menu     = $('#category-menu'),
-		host     = $('#bottom-notice-ns'),
-		tree     = $('#siteTree'),
-		subtree  = $('#pageTree');
-		
-	$(wrap).append(pmenu);
-	$(wrap).append(pmenusub);
-	$(host).append(menu);
+function moveMenu() {
+    var pmenu    = $('#p-dynamic-menu'),
+	pmenusub = $('#p-dynamic-submenu'),
+	gmenu	 = $('#p-global-menu'),
+	wrap     = $('#mw-panel'),
+	menu     = $('#category-menu'),
+	host     = $('#bottom-notice-ns'),
+	tree     = $('#projTree'),
+	subtree  = $('#pageTree');
 	
-	tree.bind('fancytreeinit', function(event, data) {
-		data.tree.makeTitleVisible();
-	});
-	subtree.bind('fancytreeinit', function(event, data) {
-		data.tree.makeTitleVisible();
-	});
- }
+    $(wrap).append(pmenu);
+    $(wrap).append(pmenusub);
+    $(wrap).append(gmenu);
+    $(host).append(menu);
+    
+    tree.bind('fancytreeinit', function(event, data) {
+	data.tree.makeTitleVisible();
+    });
+    subtree.bind('fancytreeinit', function(event, data) {
+	data.tree.makeTitleVisible();
+    });
+}

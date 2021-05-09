@@ -80,6 +80,11 @@
                     "url": "https:\/\/raw.githubusercontent.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/MediaWiki%2FSidebar%7CCategory%3AProjects.mediawiki"
                 },
                 {
+                    "name": "Sitenotice",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/MediaWiki%2FSitenotice.mediawiki"
+                },
+                {
                     "name": "Automenu",
                     "namespace": "NS_TEMPLATE",
                     "url": "https:\/\/raw.githubusercontent.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/Template%2FAutomenu.mediawiki"
@@ -88,6 +93,11 @@
                     "name": "Category menu",
                     "namespace": "NS_TEMPLATE",
                     "url": "https:\/\/raw.githubusercontent.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/Template%2FCategory%20menu.mediawiki"
+                },
+                {
+                    "name": "Global menu",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/Template%2FGlobal%20menu.mediawiki"
                 },
                 {
                     "name": "Project menu",

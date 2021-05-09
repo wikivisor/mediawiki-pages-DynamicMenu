@@ -1,0 +1,6 @@
+<includeonly><div id="p-global-menu" class="vector-menu vector-menu-portal portal">
+<h3 id="p-global-menu-label">Site map</h3>
+{{#tree: extensions=["persist"] | id=siteTree | minExpandLevel=2 | class=navTree |
+{{{1|}}}
+}}
+</div></includeonly>
