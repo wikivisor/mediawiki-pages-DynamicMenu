@@ -1,2 +1,1 @@
-* [[{{ROOTPAGENAME}}]]
-{{#subpages:{{ROOTPAGENAME}}|element=none|addlevel=1}}
+{{automenu|1}}
