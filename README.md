@@ -2,20 +2,23 @@
 A pack of pages for easy sidebar menu insertion.
 
 # Requirements
-* SemanticMediaWiki
-* DynamicSidebar
-* Gadgets
-* PageNotice
-* ParserFunctions (with `$wgPFEnableStringFunctions = true;`)
-* SubpageFun
-* TreeAndMenu
-* UserFunctions
-* PageExchange or PagePort
+* **SemanticMediaWiki** Provides Modification date
+* **DynamicSidebar** Provides CATEGORY-SIDEBAR
+* **Gadgets** Loads JS
+* **PageNotice** Provides Mediawiki:Bottom-notice-ns-0
+* **ParserFunctions** (with `$wgPFEnableStringFunctions = true;`)
+* **SubpageFun** Provides useful magic words (incl. TOPLEVELPAGE)
+* **SubPageList** Provides a parser function for menu content auto creation
+* **TreeAndMenu** Provides expandable multilevel menus
+* **UserFunctions** Provides `{{#ifsysop: ... }}`
+* **PageExchange** or **PagePort** for importing content
 
 # Setup
 
 ## Create a custom namespace
-We'll store TreeAndMenu menus in a custom namespace. Add this to LocalSettings.php:
+We'll store TreeAndMenu menus in a custom namespace. A menu for the page `SomePage` will be stored as `Menu:SomePage`.
+
+Add this to LocalSettings.php:
 ```php
 define("NS_MENU", 3000); // This MUST be even.
 define("NS_MENU_TALK", 3001); // This MUST be the following odd integer.
@@ -25,7 +28,6 @@ $wgExtraNamespaces[NS_MENU_TALK] = "Menu_talk";
 $wgNamespacesWithSubpages[NS_MENU] = true;
 $smwgNamespacesWithSemanticLinks[NS_MENU] = true;
 ```
-A menu for the page `SomePage` will be stored as `Menu:SomePage`
 
 ## Install and configure required extensions
 
@@ -35,7 +37,6 @@ Add this to composer.local.json:
 {
     "require": {
         "mediawiki/semantic-media-wiki": "^3.2",
-        "mediawiki/semantic-result-formats": "^3.2",
         "mediawiki/sub-page-list": "^1.6"
     }
 }
@@ -44,10 +45,9 @@ and run:
 ```bash
 composer update --no-dev -o
 ```
-Then enable them in LocalSettings.php:
+Then enable SMW in LocalSettings.php:
 ```php
 enableSemantics( 'parasol' ); #SemanticMediawiki
-wfLoadExtension( 'SemanticResultFormats' );
 ```
 Running `update.php` is required:
 ```bash
@@ -62,6 +62,7 @@ wfLoadExtension( 'Gadgets' );
 wfLoadExtension( 'PageNotice' );
 wfLoadExtension( 'ParserFunctions' );
 wfLoadExtension( 'SubpageFun' );
+wfLoadExtension( 'SubPageList' );
 wfLoadExtension( 'TreeAndMenu' );
 wfLoadExtension( 'UserFunctions' );
 ```
