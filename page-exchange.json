@@ -5,7 +5,7 @@
     "url": "https:\/\/github.com\/https:\/\/github.com\/wikivisor\/mediawiki-pages-DynamicMenu",
     "packages": {
         "1620562856": {
-            "globalID": "1620562856",
+            "globalID": "mediawiki-pages-DynamicMenu",
             "description": "A pack of pages for easy sidebar menu insertion.",
             "version": "0.1",
             "pages": [
