@@ -95,3 +95,47 @@ wfLoadExtension( 'VisualEditor' );
 * add the following to the bottom of your `LocalSettings.php`: `$wgPageExchangePackageFiles[] = 'https://raw.githubusercontent.com/wikivisor/mediawiki-pages-DynamicMenu/main/page-exchange.json';`
 * navigate to `Special:Packages` and install the package
 * (optional) from the wiki root, run `php maintenance/runJobs.php`
+
+# Usage
+
+## Category menu
+
+A **flat** menu block with the title. Provided by the DynamicSidebar extension. Menu is shown if the current page belongs to the given category. Create a page `Mediawiki:Sidebar/Category:NameOfYourCategory` and plan your menu in format:
+```php
+* MenuBlockTitle
+** PageName1|LinkText1
+** PageName2|LinkText2
+** PageName3|LinkText3
+...
+```
+For details refer to the [extension documentation](https://www.mediawiki.org/wiki/Extension:DynamicSidebar)
+
+## Project menu
+
+A multilevel collapsible menu. Provided by the TreeAndMenu extension. 
+
+"Project" means hierarchy of subpages derived from the root page. Menu is shown if there is a page in `Menu:` namespace matching the name of the **root page** of the current page / subpage. It means the menu will be shown on the root page and on all subpages.
+
+### Manual menu 
+
+**Advantage:** You can manage the order and level of pages.
+
+Create a page in `Menu:` namespace matching the name of the **root page** of the current page / subpage and plan your menu in format:
+```php
+* [[RootPageName]]
+** [[RootPageName/SubpageName1|SubpageName1]]
+** [[RootPageName/SubpageName2|SubpageName2]]
+*** [[RootPageName/SubpageName2/SubSub1|SubSub1]]
+*** [[RootPageName/SubpageName2/SubSub2|SubSub2]]
+** [[RootPageName/SubpageName3|SubpageName3]]
+...
+```
+### Automatic menu
+
+**Advantage:** Menu is auto updating as new subpages are added.
+
+Create a page in `Menu:` namespace matching the name of the **root page** of the current page / subpage and put:
+```php
+{{automenu|1}}
+```
+where `1` is the level menu should be started at (for nested menus). For details refer to the [extension documentation](https://www.mediawiki.org/wiki/Extension:TreeAndMenu)
