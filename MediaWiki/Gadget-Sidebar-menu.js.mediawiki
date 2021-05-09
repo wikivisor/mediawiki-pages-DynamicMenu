@@ -33,15 +33,23 @@ function resizeend() {
     }               
 }
 
-$(function moveMenu() {
-	var node = document.getElementById("p-dynamic-menu");
-	var wrap = document.getElementById("mw-panel");
-	var menu = document.getElementById("category-menu");
-	var host = document.getElementById("bottom-notice-ns");
-	var tree = document.getElementById("siteTree");
-	wrap.appendChild(node);
-	host.appendChild(menu);
+ function moveMenu() {
+	var pmenu    = $('#p-dynamic-menu'),
+		pmenusub = $('#p-dynamic-submenu'),
+		wrap     = $('#mw-panel'),
+		menu     = $('#category-menu'),
+		host     = $('#bottom-notice-ns'),
+		tree     = $('#siteTree'),
+		subtree  = $('#pageTree');
+		
+	$(wrap).append(pmenu);
+	$(wrap).append(pmenusub);
+	$(host).append(menu);
+	
 	tree.bind('fancytreeinit', function(event, data) {
 		data.tree.makeTitleVisible();
 	});
-});
+	subtree.bind('fancytreeinit', function(event, data) {
+		data.tree.makeTitleVisible();
+	});
+ }
