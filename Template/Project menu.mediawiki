@@ -1,7 +1,18 @@
-<includeonly>{{#if: {{#show: Menu:{{{1|{{ROOTPAGENAME}}}}} |?Modification date}}
-   |<div id="p-dynamic-menu" class="vector-menu vector-menu-portal portal">
-    <h3 id="p-dynamic-menu-label">Project tree</h3>
+<includeonly><div class="float-right">{{#if: {{#show: Menu:{{{1|{{ROOTPAGENAME}}}}} |?Modification date}}
+  |{{#ifsysop: [[Menu:{{{1|{{ROOTPAGENAME}}}}}|<span class="mw-ui-button mw-ui-progressive small">Tree menu</span>]]}} <!--
+
+--><div id="p-dynamic-menu" class="vector-menu vector-menu-portal portal">
+<h3 id="p-dynamic-menu-label">Project tree</h3>
 {{#tree: extensions=["persist"] | id=siteTree | class=navTree |
 {{:Menu:{{{1|{{ROOTPAGENAME}}}}}}}
-}}</div>{{#ifsysop: <span class="float-right">[[Menu:{{{1|{{ROOTPAGENAME}}}}}|<span class="mw-ui-button mw-ui-progressive small">Tree menu</span>]]</span>}}
-}}</includeonly>
+}}</div>}} <!--
+
+-->{{#ifexpr: {{SUBPAGELEVEL}} > 0
+     |{{#if: {{#show: Menu:{{FULLPAGENAME}} |?Modification date}}
+        |{{#ifsysop: [[Menu:{{FULLPAGENAME}}|<span class="mw-ui-button mw-ui-progressive small">Context menu</span>]]}}<!--
+
+--><div id="p-dynamic-submenu" class="vector-menu vector-menu-portal portal">
+<h3 id="p-dynamic-submenu-label">See also</h3>
+{{#tree: extensions=["persist"] | id=pageTree | class=navTree |
+{{:Menu:{{FULLPAGENAME}}}}
+}}</div>}}}}</div></includeonly>
