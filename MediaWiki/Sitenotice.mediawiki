@@ -1,15 +1,3 @@
 {{Global menu|
-* Item
-** Something
-** Something
-** Something
-*** Something else
-*** Something else
-*** Something else
-* Other item
-** Something
-*** Something else
-** Something
-** Something
-** Something
+{{:Mediawiki:Global-menu}}
 }}
