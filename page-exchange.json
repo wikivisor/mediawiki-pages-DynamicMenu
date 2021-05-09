@@ -118,6 +118,11 @@
                     "name": "Project name",
                     "namespace": "NS_MENU",
                     "url": "https:\/\/raw.githubusercontent.com\/https:\/\/github.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/Menu%2FProject%20name.mediawiki"
+                },
+                {
+                    "name": "Project name\/Topic One\/Subtopic 1",
+                    "namespace": "NS_MENU",
+                    "url": "https:\/\/raw.githubusercontent.com\/https:\/\/github.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/Menu%2FProject%20name%7CTopic%20One%7CSubtopic%201.mediawiki"
                 }
             ],
             "requiredExtensions": [
