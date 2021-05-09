@@ -1,11 +1,11 @@
 {
-    "publisher": "WikiVisor",
+    "publisher": "PagePort",
     "author": "WikiVisor",
     "language": "en",
     "url": "https:\/\/github.com\/https:\/\/github.com\/wikivisor\/mediawiki-pages-DynamicMenu",
     "packages": {
-        "1620554675": {
-            "globalID": "1620554675",
+        "1620562856": {
+            "globalID": "1620562856",
             "description": "A pack of pages for easy sidebar menu insertion.",
             "version": "0.1",
             "pages": [
@@ -127,14 +127,14 @@
             ],
             "requiredExtensions": [
                 "SemanticMediaWiki",
-                "DynamicSidebar",
-                "Gadgets",
-                "PageNotice",
-                "ParserFunctions",
-                "SubpageFun",
-                "SubPageList",
-                "TreeAndMenu",
-                "UserFunctions"
+                " DynamicSidebar",
+                " Gadgets",
+                " PageNotice",
+                " ParserFunctions",
+                " SubpageFun",
+                " SubPageList",
+                " TreeAndMenu",
+                " UserFunctions"
             ]
         }
     }
