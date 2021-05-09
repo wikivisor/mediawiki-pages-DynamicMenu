@@ -4,8 +4,8 @@
     "language": "en",
     "url": "https:\/\/github.com\/https:\/\/github.com\/wikivisor\/mediawiki-pages-DynamicMenu",
     "packages": {
-        "1620562856": {
-            "globalID": "mediawiki-pages-DynamicMenu",
+        "mediawiki-pages-DynamicMenu": {
+            "globalID": "1620562856",
             "description": "A pack of pages for easy sidebar menu insertion.",
             "version": "0.1",
             "pages": [
