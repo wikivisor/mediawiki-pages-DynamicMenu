@@ -12,117 +12,117 @@
                 {
                     "name": "Project 1",
                     "namespace": "NS_MAIN",
-                    "url": "https:\/\/raw.githubusercontent.com\/https:\/\/github.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/Main%2FProject%201.mediawiki"
+                    "url": "https:\/\/raw.githubusercontent.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/Main%2FProject%201.mediawiki"
                 },
                 {
                     "name": "Project name",
                     "namespace": "NS_MAIN",
-                    "url": "https:\/\/raw.githubusercontent.com\/https:\/\/github.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/Main%2FProject%20name.mediawiki"
+                    "url": "https:\/\/raw.githubusercontent.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/Main%2FProject%20name.mediawiki"
                 },
                 {
                     "name": "Project name\/Topic One",
                     "namespace": "NS_MAIN",
-                    "url": "https:\/\/raw.githubusercontent.com\/https:\/\/github.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/Main%2FProject%20name%7CTopic%20One.mediawiki"
+                    "url": "https:\/\/raw.githubusercontent.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/Main%2FProject%20name%7CTopic%20One.mediawiki"
                 },
                 {
                     "name": "Project name\/Topic One\/Subtopic 1",
                     "namespace": "NS_MAIN",
-                    "url": "https:\/\/raw.githubusercontent.com\/https:\/\/github.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/Main%2FProject%20name%7CTopic%20One%7CSubtopic%201.mediawiki"
+                    "url": "https:\/\/raw.githubusercontent.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/Main%2FProject%20name%7CTopic%20One%7CSubtopic%201.mediawiki"
                 },
                 {
                     "name": "Project name\/Topic Two",
                     "namespace": "NS_MAIN",
-                    "url": "https:\/\/raw.githubusercontent.com\/https:\/\/github.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/Main%2FProject%20name%7CTopic%20Two.mediawiki"
+                    "url": "https:\/\/raw.githubusercontent.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/Main%2FProject%20name%7CTopic%20Two.mediawiki"
                 },
                 {
                     "name": "Project name\/Topic Two\/Subtopic 1",
                     "namespace": "NS_MAIN",
-                    "url": "https:\/\/raw.githubusercontent.com\/https:\/\/github.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/Main%2FProject%20name%7CTopic%20Two%7CSubtopic%201.mediawiki"
+                    "url": "https:\/\/raw.githubusercontent.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/Main%2FProject%20name%7CTopic%20Two%7CSubtopic%201.mediawiki"
                 },
                 {
                     "name": "Project name\/Topic Two\/Subtopic 2",
                     "namespace": "NS_MAIN",
-                    "url": "https:\/\/raw.githubusercontent.com\/https:\/\/github.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/Main%2FProject%20name%7CTopic%20Two%7CSubtopic%202.mediawiki"
+                    "url": "https:\/\/raw.githubusercontent.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/Main%2FProject%20name%7CTopic%20Two%7CSubtopic%202.mediawiki"
                 },
                 {
                     "name": "Bottom-notice-ns-0",
                     "namespace": "NS_MEDIAWIKI",
-                    "url": "https:\/\/raw.githubusercontent.com\/https:\/\/github.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/MediaWiki%2FBottom-notice-ns-0.mediawiki"
+                    "url": "https:\/\/raw.githubusercontent.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/MediaWiki%2FBottom-notice-ns-0.mediawiki"
                 },
                 {
                     "name": "Common.css",
                     "namespace": "NS_MEDIAWIKI",
-                    "url": "https:\/\/raw.githubusercontent.com\/https:\/\/github.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/MediaWiki%2FCommon.css.mediawiki"
+                    "url": "https:\/\/raw.githubusercontent.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/MediaWiki%2FCommon.css.mediawiki"
                 },
                 {
                     "name": "Gadget-Sidebar-menu",
                     "namespace": "NS_MEDIAWIKI",
-                    "url": "https:\/\/raw.githubusercontent.com\/https:\/\/github.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/MediaWiki%2FGadget-Sidebar-menu.mediawiki"
+                    "url": "https:\/\/raw.githubusercontent.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/MediaWiki%2FGadget-Sidebar-menu.mediawiki"
                 },
                 {
                     "name": "Gadget-Sidebar-menu.js",
                     "namespace": "NS_MEDIAWIKI",
-                    "url": "https:\/\/raw.githubusercontent.com\/https:\/\/github.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/MediaWiki%2FGadget-Sidebar-menu.js.mediawiki"
+                    "url": "https:\/\/raw.githubusercontent.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/MediaWiki%2FGadget-Sidebar-menu.js.mediawiki"
                 },
                 {
                     "name": "Gadgets-definition",
                     "namespace": "NS_MEDIAWIKI",
-                    "url": "https:\/\/raw.githubusercontent.com\/https:\/\/github.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/MediaWiki%2FGadgets-definition.mediawiki"
+                    "url": "https:\/\/raw.githubusercontent.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/MediaWiki%2FGadgets-definition.mediawiki"
                 },
                 {
                     "name": "Sidebar",
                     "namespace": "NS_MEDIAWIKI",
-                    "url": "https:\/\/raw.githubusercontent.com\/https:\/\/github.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/MediaWiki%2FSidebar.mediawiki"
+                    "url": "https:\/\/raw.githubusercontent.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/MediaWiki%2FSidebar.mediawiki"
                 },
                 {
                     "name": "Sidebar\/Category:Projects",
                     "namespace": "NS_MEDIAWIKI",
-                    "url": "https:\/\/raw.githubusercontent.com\/https:\/\/github.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/MediaWiki%2FSidebar%7CCategory%3AProjects.mediawiki"
+                    "url": "https:\/\/raw.githubusercontent.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/MediaWiki%2FSidebar%7CCategory%3AProjects.mediawiki"
                 },
                 {
                     "name": "Automenu",
                     "namespace": "NS_TEMPLATE",
-                    "url": "https:\/\/raw.githubusercontent.com\/https:\/\/github.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/Template%2FAutomenu.mediawiki"
+                    "url": "https:\/\/raw.githubusercontent.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/Template%2FAutomenu.mediawiki"
                 },
                 {
                     "name": "Category menu",
                     "namespace": "NS_TEMPLATE",
-                    "url": "https:\/\/raw.githubusercontent.com\/https:\/\/github.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/Template%2FCategory%20menu.mediawiki"
+                    "url": "https:\/\/raw.githubusercontent.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/Template%2FCategory%20menu.mediawiki"
                 },
                 {
                     "name": "Project menu",
                     "namespace": "NS_TEMPLATE",
-                    "url": "https:\/\/raw.githubusercontent.com\/https:\/\/github.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/Template%2FProject%20menu.mediawiki"
+                    "url": "https:\/\/raw.githubusercontent.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/Template%2FProject%20menu.mediawiki"
                 },
                 {
                     "name": "Subpage title",
                     "namespace": "NS_TEMPLATE",
-                    "url": "https:\/\/raw.githubusercontent.com\/https:\/\/github.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/Template%2FSubpage%20title.mediawiki"
+                    "url": "https:\/\/raw.githubusercontent.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/Template%2FSubpage%20title.mediawiki"
                 },
                 {
                     "name": "Project name",
                     "namespace": "NS_CATEGORY",
-                    "url": "https:\/\/raw.githubusercontent.com\/https:\/\/github.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/Category%2FProject%20name.mediawiki"
+                    "url": "https:\/\/raw.githubusercontent.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/Category%2FProject%20name.mediawiki"
                 },
                 {
                     "name": "Projects",
                     "namespace": "NS_CATEGORY",
-                    "url": "https:\/\/raw.githubusercontent.com\/https:\/\/github.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/Category%2FProjects.mediawiki"
+                    "url": "https:\/\/raw.githubusercontent.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/Category%2FProjects.mediawiki"
                 },
                 {
                     "name": "Project 1",
                     "namespace": "NS_MENU",
-                    "url": "https:\/\/raw.githubusercontent.com\/https:\/\/github.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/Menu%2FProject%201.mediawiki"
+                    "url": "https:\/\/raw.githubusercontent.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/Menu%2FProject%201.mediawiki"
                 },
                 {
                     "name": "Project name",
                     "namespace": "NS_MENU",
-                    "url": "https:\/\/raw.githubusercontent.com\/https:\/\/github.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/Menu%2FProject%20name.mediawiki"
+                    "url": "https:\/\/raw.githubusercontent.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/Menu%2FProject%20name.mediawiki"
                 },
                 {
                     "name": "Project name\/Topic One\/Subtopic 1",
                     "namespace": "NS_MENU",
-                    "url": "https:\/\/raw.githubusercontent.com\/https:\/\/github.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/Menu%2FProject%20name%7CTopic%20One%7CSubtopic%201.mediawiki"
+                    "url": "https:\/\/raw.githubusercontent.com\/wikivisor\/mediawiki-pages-DynamicMenu\/master\/Menu%2FProject%20name%7CTopic%20One%7CSubtopic%201.mediawiki"
                 }
             ],
             "requiredExtensions": [
