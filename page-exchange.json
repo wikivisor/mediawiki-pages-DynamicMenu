@@ -127,14 +127,14 @@
             ],
             "requiredExtensions": [
                 "SemanticMediaWiki",
-                " DynamicSidebar",
-                " Gadgets",
-                " PageNotice",
-                " ParserFunctions",
-                " SubpageFun",
-                " SubPageList",
-                " TreeAndMenu",
-                " UserFunctions"
+                "DynamicSidebar",
+                "Gadgets",
+                "PageNotice",
+                "ParserFunctions",
+                "SubpageFun",
+                "SubPageList",
+                "TreeAndMenu",
+                "UserFunctions"
             ]
         }
     }
