@@ -120,7 +120,17 @@
                     "url": "https:\/\/parasol.wikivisor.com\/w\/index.php?title=Menu:Project_name&action=raw"
                 }
             ],
-            "requiredExtensions": []
+            "requiredExtensions": [
+            	"SemanticMediaWiki",
+		        "DynamicSidebar",
+		        "Gadgets",
+		        "PageNotice",
+		        "ParserFunctions",
+		        "SubpageFun",
+		        "SubPageList",
+		        "TreeAndMenu",
+		        "UserFunctions"
+            ]
         }
     }
 }
