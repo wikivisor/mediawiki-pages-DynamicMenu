@@ -85,6 +85,11 @@
                     "url": "https:\/\/parasol.wikivisor.com\/w\/index.php?title=MediaWiki:Sidebar\/Category:Projects&action=raw"
                 },
                 {
+                    "name": "Automenu",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/parasol.wikivisor.com\/w\/index.php?title=Template:Automenu&action=raw"
+                },		    
+                {
                     "name": "Category menu",
                     "namespace": "NS_TEMPLATE",
                     "url": "https:\/\/parasol.wikivisor.com\/w\/index.php?title=Template:Category_menu&action=raw"
