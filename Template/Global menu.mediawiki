@@ -2,5 +2,4 @@
 <h3 id="p-global-menu-label">Site map</h3>
 {{#tree: extensions=["persist"] | id=siteTree | minExpandLevel=2 | class=navTree |
 {{{1|}}}
-}}
-</div></includeonly>
+}}</div></includeonly>
