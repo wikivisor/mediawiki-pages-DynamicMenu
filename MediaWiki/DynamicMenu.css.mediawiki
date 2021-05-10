@@ -4,10 +4,10 @@
 
 /* We make the Sidebar a bit wider to fit a multilevel menu better */
 
-#mw-panel {
+ #mw-panel {
 	width: 15em;
 	height: 100%;
-}
+ }
 #p-logo {
 	margin-left: .5em;
 }
