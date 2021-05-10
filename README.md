@@ -23,7 +23,7 @@ A pack of pages for easy sidebar menu insertion.
 
 ## Global menu
 
-A multilevel collapsible menu (the first level is always expanded). Provided by the TreeAndMenu extension. Served via `Mediawiki:Sitenotice` using `Global menu` template. 
+A multilevel collapsible menu (the first level is always expanded). Served via `Mediawiki:Sitenotice` using `Global menu` template. 
 
 **Advantage:** Appears on all pages.
 
@@ -43,7 +43,7 @@ Navigate to `Mediawiki:Global-menu` and plan your menu in format:
 
 ## Category menu
 
-A **flat** menu block with the title. Provided by the DynamicSidebar extension. Menu is shown if the current page belongs to the given category. Create a page `Mediawiki:Sidebar/Category:NameOfYourCategory` and plan your menu in format:
+A **flat** menu block with the title. Menu is shown if the current page belongs to the given category. Create a page `Mediawiki:Sidebar/Category:NameOfYourCategory` and plan your menu in format:
 ```php
 * MenuBlockTitle
 ** PageName1|LinkText1
@@ -55,7 +55,7 @@ For details refer to the [extension documentation](https://www.mediawiki.org/wik
 
 ## Project menu
 
-A multilevel collapsible menu. Provided by the TreeAndMenu extension. 
+A multilevel collapsible menu. 
 
 "Project" means hierarchy of subpages derived from the root page. Menu is shown if there is a page in `Menu:` namespace matching the name of the **root page** of the current page / subpage. It means the menu will be shown on the root page and on all subpages.
 
