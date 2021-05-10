@@ -92,7 +92,7 @@ Using a category tree for site navigation is not recommended. We just provide a 
 ### DynamicSidebar
 
 The User- and the Group-specific menus are also available as a part of DynamicSidebar extension: 
-* Group menus shall be created under `MediaWiki:Sidebar/Group:<group>`.
+* Group menus must be created under `MediaWiki:Sidebar/Group:<group>`.
 * Users are able to create their own custom sidebar blocks under `User:<username>/Sidebar`.
 
 ### SemanticMediawiki
