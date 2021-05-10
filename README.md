@@ -89,11 +89,17 @@ Using a category tree for site navigation is not recommended. We just provide a 
 
 ## Other features
 
-The User- and the Group-specific menus are also available as a part of DynamicSidebar extension. 
+### DynamicSidebar
 
-Group menus shall be created under `MediaWiki:Sidebar/Group:<group>`.
+The User- and the Group-specific menus are also available as a part of DynamicSidebar extension: 
+* Group menus shall be created under `MediaWiki:Sidebar/Group:<group>`.
+* Users are able to create their own custom sidebar blocks under `User:<username>/Sidebar`.
 
-Users are able to create their own custom sidebar blocks under `User:<username>/Sidebar`.
+### SemanticMediawiki
+
+**Needs additional development**
+
+Adding semantic annotations to pages will make it possible to generate hierarchical/nesting trees with logical sorting (eg. using `SemanticResultFormats`. etc), which can be injected into the infrastructure created: just replace manually created menus with the semantic query code.
 
 # Requirements
 * **SemanticMediaWiki** Provides Modification date
