@@ -1,57 +1,57 @@
-var rtime;
-var timeout = false;
-var delta = 100;
+ var rtime;
+ var timeout = false;
+ var delta = 100;
 
-docReady(function() {
-	moveMenu();
-	$(window).resize();
-});
+ docReady(function() {
+  	moveMenu();
+  	$(window).resize();
+ });
 
-function docReady(fn) {
-    // see if DOM is already available
-    if (document.readyState === 'complete' || document.readyState === 'interactive') {
-        // call on next available tick
-        setTimeout(fn, 1);
-    } else {
-        document.addEventListener('DOMContentLoaded', fn);
-    }
-}
+ function docReady(fn) {
+     // see if DOM is already available
+     if (document.readyState === 'complete' || document.readyState === 'interactive') {
+         // call on next available tick
+         setTimeout(fn, 1);
+     } else {
+         document.addEventListener('DOMContentLoaded', fn);
+     }
+ }
 
-$(window).resize(function() {
-    rtime = new Date();
-    if (timeout === false) {
-        timeout = true;
-        setTimeout(resizeend, delta);
-    }
-});
+ $(window).resize(function() {
+     rtime = new Date();
+     if (timeout === false) {
+         timeout = true;
+         setTimeout(resizeend, delta);
+     }
+ });
 
-function resizeend() {
-    if (new Date() - rtime < delta) {
-        setTimeout(resizeend, delta);
-    } else {
-        timeout = false;
-    }               
-}
+ function resizeend() {
+     if (new Date() - rtime < delta) {
+         setTimeout(resizeend, delta);
+     } else {
+         timeout = false;
+     }
+ }
 
-function moveMenu() {
-    var pmenu    = $('#p-dynamic-menu'),
-	pmenusub = $('#p-dynamic-submenu'),
-	gmenu	 = $('#p-global-menu'),
-	wrap     = $('#mw-panel'),
-	menu     = $('#category-menu'),
-	host     = $('#bottom-notice-ns'),
-	tree     = $('#projTree'),
-	subtree  = $('#pageTree');
-	
-    $(wrap).append(pmenu);
-    $(wrap).append(pmenusub);
-    $(wrap).append(gmenu);
-    $(host).append(menu);
-    
-    tree.bind('fancytreeinit', function(event, data) {
-	data.tree.makeTitleVisible();
-    });
-    subtree.bind('fancytreeinit', function(event, data) {
-	data.tree.makeTitleVisible();
-    });
-}
+ function moveMenu() {
+     var pmenu    = $('#p-dynamic-menu'),
+  	pmenusub = $('#p-dynamic-submenu'),
+  	gmenu 	 = $('#p-global-menu'),
+  	wrap     = $('#mw-panel'),
+  	menu     = $('#category-menu'),
+  	host     = $('#bottom-notice-ns'),
+  	tree     = $('#projTree'),
+  	subtree  = $('#pageTree');
+
+     $(wrap).append(pmenu);
+     $(wrap).append(pmenusub);
+     $(wrap).append(gmenu);
+     $(host).append(menu);
+
+     tree.bind('fancytreeinit', function(event, data) {
+  	data.tree.makeTitleVisible();
+     });
+     subtree.bind('fancytreeinit', function(event, data) {
+  	data.tree.makeTitleVisible();
+     });
+ }
