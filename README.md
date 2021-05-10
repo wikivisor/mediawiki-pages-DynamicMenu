@@ -112,17 +112,10 @@ $smwgNamespacesWithSemanticLinks[NS_MENU] = true;
 ## Install and configure required extensions
 
 ### Composer
-Add this to composer.local.json:
+Run from Mediawiki install directory:
 ```php
-{
-    "require": {
-        "mediawiki/semantic-media-wiki": "^3.2",
-        "mediawiki/sub-page-list": "^1.6"
-    }
-}
-```
-and run:
-```bash
+COMPOSER=composer.local.json composer require --no-update mediawiki/semantic-media-wiki
+COMPOSER=composer.local.json composer require --no-update mediawiki/sub-page-list
 composer update --no-dev -o
 ```
 Then enable SMW in LocalSettings.php:
