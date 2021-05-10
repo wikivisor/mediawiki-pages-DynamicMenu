@@ -113,6 +113,8 @@ Adding semantic annotations to pages will make it possible to generate hierarchi
 * **UserFunctions** Provides `{{#ifsysop: ... }}`
 * **PageExchange** or **PagePort** for importing content
 
+The package is designed to work with the **Vector** sidebar. The work with other skins featuring a sidebar may require ajustments to the package CSS, JS and/or HTML. 
+
 # Setup
 
 ## Create a custom namespace
