@@ -172,6 +172,6 @@ wfLoadExtension( 'VisualEditor' );
 
 ### via PageExchange
 
-* add the following to the bottom of your `LocalSettings.php`: `$wgPageExchangePackageFiles[] = 'https://raw.githubusercontent.com/wikivisor/mediawiki-pages-DynamicMenu/main/page-exchange.json';`
+* add the following to the bottom of your `LocalSettings.php`: `$wgPageExchangePackageFiles[] = 'https://raw.githubusercontent.com/wikivisor/mediawiki-pages-DynamicMenu/master/page-exchange.json';`
 * navigate to `Special:Packages` and install the package
 * (optional) from the wiki root, run `php maintenance/runJobs.php`
