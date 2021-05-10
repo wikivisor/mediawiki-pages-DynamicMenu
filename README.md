@@ -8,6 +8,7 @@ A pack of pages for easy sidebar menu insertion.
     + [Manual menu](#manual-menu)
     + [Automatic menu](#automatic-menu)
   * [Category tree](#category-tree)
+  * [Other features](#other-features)
 - [Requirements](#requirements)
 - [Setup](#setup)
   * [Create a custom namespace](#create-a-custom-namespace)
@@ -85,6 +86,14 @@ where `1` is the level menu should be started at (for nested menus). For details
 ## Category tree
 
 Using a category tree for site navigation is not recommended. We just provide a link to the `Special:CategoryTree` via [Mediawiki:Sidebar](/Mediawiki/Sidebar.mediawiki). In the `Category` namespace the link is changing to `View as a tree` and takes visitors to a category tree built from the current category.
+
+## Other features
+
+The User- and the Group-specific menus are also available as a part of DynamicSidebar extension. 
+
+Group menus shall be created under `MediaWiki:Sidebar/Group:<group>`.
+
+Users are able to create their own custom sidebar blocks under `User:<username>/Sidebar`.
 
 # Requirements
 * **SemanticMediaWiki** Provides Modification date
