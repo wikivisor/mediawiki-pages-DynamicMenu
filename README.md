@@ -174,7 +174,7 @@ $wgPageExchangePackageFiles[] = 'https://raw.githubusercontent.com/wikivisor/med
 
 ## Apply styles
 
-Import styles by adding the following into `MediaWiki:Common.css`:
+Import styles by adding the following into `MediaWiki:Vector.css`:
 ```php
 @import url("/w/index.php?action=raw&ctype=text/css&title=MediaWiki:DynamicMenu.css");
 ```
