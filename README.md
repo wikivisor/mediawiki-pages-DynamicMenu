@@ -7,6 +7,7 @@ A pack of pages for easy sidebar menu insertion.
   * [Project menu](#project-menu)
     + [Manual menu](#manual-menu)
     + [Automatic menu](#automatic-menu)
+  * [Category tree](#category-tree)
 - [Requirements](#requirements)
 - [Setup](#setup)
   * [Create a custom namespace](#create-a-custom-namespace)
@@ -80,6 +81,10 @@ Create a page in `Menu:` namespace matching the name of the **root page** of the
 {{automenu|1}}
 ```
 where `1` is the level menu should be started at (for nested menus). For details refer to the [extension documentation](https://www.mediawiki.org/wiki/Extension:TreeAndMenu)
+
+## Category tree
+
+Using a category tree for site navigation is not recommended. We just provide a link to the `Special:CategoryTree`. In the `Category` namespace the link is changing to `View as a tree` and takes visitors to a category tree built from the current category.
 
 # Requirements
 * **SemanticMediaWiki** Provides Modification date
