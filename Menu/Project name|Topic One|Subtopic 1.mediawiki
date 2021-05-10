@@ -1,0 +1,6 @@
+
+* [[Special:SpecialPages|Specials]]
+** [[Special:AllPages|All pages]] 
+** [[Special:ListFiles|All Files]]
+** [[Special:ListUsers|All Users]]
+*** [[Special:UserRights|User Rights]]
