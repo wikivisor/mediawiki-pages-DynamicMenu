@@ -30,8 +30,6 @@ A multilevel collapsible menu (the first level is always expanded). Served via `
 
 Navigate to `Mediawiki:Global-menu` and plan your menu in format:
 ```php
-// template start
-...
 * [[RootPageName]]
 ** [[RootPageName/SubpageName1|SubpageName1]]
 ** [[RootPageName/SubpageName2|SubpageName2]]
