@@ -16,9 +16,8 @@
  height: 14em;
  }
  .mw-wiki-logo {
- background-size: cover;
- margin-top:1rem;
- margin-bottom:1rem;
+ background-size: contain;
+ margin-top:.5rem;
  }
  .mw-body, #mw-data-after-content, .mw-footer, #left-navigation {
  margin-left: 16em;
