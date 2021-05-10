@@ -97,7 +97,7 @@ The User- and the Group-specific menus are also available as a part of DynamicSi
 
 ### SemanticMediawiki
 
-**Needs additional development**
+:exclamation: **Not included. Needs additional development**
 
 Adding semantic annotations to pages will make it possible to generate hierarchical/nesting trees with logical sorting (eg. using `SemanticResultFormats`. etc), which can be injected into the infrastructure created: just replace manually created menus with the semantic query code.
 
