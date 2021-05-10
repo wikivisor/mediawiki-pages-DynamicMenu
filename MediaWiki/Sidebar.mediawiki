@@ -4,6 +4,7 @@
 ** recentchanges-url|recentchanges
 ** randompage-url|randompage
 ** helppage|help-mediawiki
+** {{#ifeq:{{NAMESPACE}}|Category|{{fullurl:Special:CategoryTree/{{BASEPAGENAME}}|mode=all}}{{!}}View as a tree|Special:CategoryTree{{!}}Category tree}} 
 * SEARCH
 * TOOLBOX
 * LANGUAGES
