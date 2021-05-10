@@ -5,8 +5,7 @@
  /* We make the Sidebar a bit wider to fit a multilevel menu better */
 
  #mw-panel {
- width: 15em;
- height: 100%;
+ width: 15.5em;
  }
  #p-logo {
  margin-left: .5em;
@@ -24,7 +23,7 @@
 
  @media screen and ( min-width: 982px ){
  #mw-panel {
- width: 15em;
+ width: 15.5em;
  }
  .mw-body, #mw-data-after-content, .mw-footer, #left-navigation {
  margin-left: 16em;
@@ -37,7 +36,6 @@
  position: fixed;
  top: 0;
  height: 100%;
- width: 16rem;
  overflow-y: auto;
  -ms-overflow-style: none;
  scrollbar-width: none !important;
