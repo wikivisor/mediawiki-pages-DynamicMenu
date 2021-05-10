@@ -24,11 +24,11 @@ A pack of pages for easy sidebar menu insertion.
 
 ## Global menu
 
-A multilevel collapsible menu (the first level is always expanded). Served via `Mediawiki:Sitenotice` using `Global menu` template. 
+A multilevel collapsible menu (the first level is always expanded). Served via [Mediawiki:Sitenotice](/Mediawiki/Sitenotice.mediawiki) using [Template:Global menu](/Template/Global%20menu.mediawiki). 
 
 **Advantage:** Appears on all pages.
 
-Navigate to `Mediawiki:Global-menu` and plan your menu in format:
+Navigate to [Mediawiki:Global-menu](/Mediawiki/Global-menu.mediawiki) and plan your menu in format:
 ```php
 * [[RootPageName]]
 ** [[RootPageName/SubpageName1|SubpageName1]]
@@ -37,7 +37,6 @@ Navigate to `Mediawiki:Global-menu` and plan your menu in format:
 *** [[RootPageName/SubpageName2/SubSub2|SubSub2]]
 ** [[RootPageName/SubpageName3|SubpageName3]]
 ...
-// template end
 ```
 
 ## Category menu
