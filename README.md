@@ -25,6 +25,8 @@ A pack of pages for easy sidebar menu insertion.
 
 A multilevel collapsible menu (the first level is always expanded). Provided by the TreeAndMenu extension. Served via `Mediawiki:Sitenotice` using `Global menu` template. 
 
+**Advantage:** Appears on all pages.
+
 Navigate to `Mediawiki:Global-menu` and plan your menu in format:
 ```php
 // template start
