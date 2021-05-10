@@ -18,6 +18,7 @@ A pack of pages for easy sidebar menu insertion.
   * [Import the package](#import-the-package)
     + [via PagePort](#via-pageport)
     + [via PageExchange](#via-pageexchange)
+  * [Apply styles](#apply-styles)
 
 # Usage
 
@@ -170,3 +171,11 @@ wfLoadExtension( 'VisualEditor' );
 * add the following to the bottom of your `LocalSettings.php`: `$wgPageExchangePackageFiles[] = 'https://raw.githubusercontent.com/wikivisor/mediawiki-pages-DynamicMenu/master/page-exchange.json';`
 * navigate to `Special:Packages` and install the package
 * (optional) from the wiki root, run `php maintenance/runJobs.php`
+
+## Apply styles
+
+Import styles by adding the following into `MediaWiki:Common.css`:
+```php
+@import url("/w/index.php?action=raw&ctype=text/css&title=MediaWiki:DynamicMenu.css");
+```
+**Note**: Adjust the URL according to your paths/rewrite rules.
