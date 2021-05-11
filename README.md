@@ -77,11 +77,18 @@ Create a page in `Menu:` namespace matching the name of the **root page** of the
 
 **Advantage:** Menu is auto updating as new subpages are added.
 
-Create a page in `Menu:` namespace matching the name of the **root page** of the current page / subpage and put:
+Create a page in `Menu:` namespace matching the name of the **root page** of the current page / subpage and put a call to the [Template:Automenu](/Template/Automenu.mediawiki):
 ```php
 {{automenu|1}}
 ```
 where `1` is the level menu should be started at (for nested menus). For details refer to the [extension documentation](https://www.mediawiki.org/wiki/Extension:TreeAndMenu)
+
+### Display title
+
+To simplify the display title of the subpages, please, use [Template:Subpage title](/Template/Subpage%20title.mediawiki), like this:
+```
+{{subpage title}}
+```
 
 ## Category tree
 
