@@ -6,7 +6,7 @@
     "packages": {
         "mediawiki-pages-DynamicMenu": {
             "globalID": "1620562856",
-            "description": "A pack of pages for easy sidebar menu insertion.",
+            "description": "An installable collection of pages for easy menu insertion into Mediawiki sidebar.",
             "version": "0.1",
             "pages": [
                 {
