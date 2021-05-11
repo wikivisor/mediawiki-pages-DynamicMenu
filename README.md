@@ -1,5 +1,5 @@
 # mediawiki-pages-DynamicMenu
-A pack of pages for easy sidebar menu insertion.
+An installable collection of pages for easy menu insertion into Mediawiki sidebar.
 
 - [Usage](#usage)
   * [Global menu](#global-menu)
