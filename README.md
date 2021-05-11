@@ -7,6 +7,7 @@ An installable collection of pages for easy menu insertion into Mediawiki sideba
   * [Project menu](#project-menu)
     + [Manual menu](#manual-menu)
     + [Automatic menu](#automatic-menu)
+    + [Display title](#display-title)
   * [Category tree](#category-tree)
   * [Other features](#other-features)
 - [Requirements](#requirements)
