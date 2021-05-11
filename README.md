@@ -93,7 +93,7 @@ To simplify the display title of the subpages, please, use [Template:Subpage tit
 
 ## Category tree
 
-Using a category tree for site navigation is not recommended. We just provide a link to the `Special:CategoryTree` via [Mediawiki:Sidebar](/Mediawiki/Sidebar.mediawiki). In the `Category` namespace the link is changing to `View as a tree` and takes visitors to a category tree built from the current category.
+Using a category tree in the sidebar for site navigation **is not recommended**. We just provide a link to the `Special:CategoryTree` via [Mediawiki:Sidebar](/Mediawiki/Sidebar.mediawiki). In the `Category` namespace the link is changing to `View as a tree` and takes visitors to a category tree built from the current category.
 
 ## Other features
 
