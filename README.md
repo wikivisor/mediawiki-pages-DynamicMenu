@@ -119,7 +119,7 @@ Adding semantic annotations to pages will make it possible to generate hierarchi
 * **SubPageList** Provides a parser function for menu content auto creation
 * **TreeAndMenu** Provides expandable multilevel menus
 * **UserFunctions** Provides `{{#ifsysop: ... }}`
-* **PageExchange** or **PagePort** for importing content
+* **PageExchange** for importing content
 
 The package is designed to work with the **Vector** sidebar. The work with other skins featuring a sidebar may require ajustments to the package CSS, JS and/or HTML. 
 
@@ -188,12 +188,7 @@ wfLoadExtension( 'VisualEditor' );
 ```
 ## Import the package
 
-### via PagePort 
-
-* download the repository
-* run `php extensions/PagePort/maintenance/importPages.php --source ~/mediawiki-pages-DynamicMenu`
-
-### via PageExchange
+### PageExchange
 
 * add the following to the bottom of your `LocalSettings.php`: 
 ```php
