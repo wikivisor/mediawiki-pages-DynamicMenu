@@ -162,6 +162,7 @@ Clone repos into extensions directory and enable the extensions in LocalSettings
 ```php
 wfLoadExtension( 'DynamicSidebar' );
 wfLoadExtension( 'Gadgets' );
+wfLoadExtension( 'PageExchange' );
 wfLoadExtension( 'PageNotice' );
 wfLoadExtension( 'ParserFunctions' );
 wfLoadExtension( 'SubpageFun' );
